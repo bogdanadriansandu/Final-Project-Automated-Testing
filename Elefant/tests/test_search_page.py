@@ -1,9 +1,8 @@
-import time
 import unittest
 from selenium import webdriver
 
-from Elefant.page_locators import SearchPageData
-from Elefant.search_page import SearchPage
+from Elefant.pages.page_locators import SearchPageData
+from Elefant.pages.search_page import SearchPage
 
 
 class TestSearchPage(unittest.TestCase):

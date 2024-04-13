@@ -1,5 +1,5 @@
-from Elefant.base_page import BasePage
-from Elefant.page_locators import HomePageData
+from Elefant.pages.base_page import BasePage
+from Elefant.pages.page_locators import HomePageData
 
 
 class HomePage(BasePage):

@@ -1,5 +1,5 @@
-from Elefant.base_page import BasePage
-from Elefant.page_locators import LoginPageData, LoginPageLocators
+from Elefant.pages.base_page import BasePage
+from Elefant.pages.page_locators import LoginPageData, LoginPageLocators
 
 
 # LoginPage class - execution of all operations that can be done on this page

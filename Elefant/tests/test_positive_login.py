@@ -2,9 +2,9 @@ import time
 import unittest
 from selenium import webdriver
 
-from Elefant.base_page import BasePage
-from Elefant.login_page import LoginPage, LoggedInSuccessfully
-from Elefant.page_locators import LoginPageData
+from Elefant.pages.base_page import BasePage
+from Elefant.pages.login_page import LoginPage, LoggedInSuccessfully
+from Elefant.pages.page_locators import LoginPageData
 
 
 class TestPositiveLogin(unittest.TestCase):

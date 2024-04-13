@@ -2,11 +2,10 @@ import unittest
 
 import HtmlTestRunner
 
-from Elefant.test_home_page import TestHomePage
-from Elefant.test_negative_login import TestNegativeLogin
-from Elefant.test_positive_login import TestPositiveLogin
-from Elefant.test_search_page import TestSearchPage
-
+from Elefant.tests.test_home_page import TestHomePage
+from Elefant.tests.test_negative_login import TestNegativeLogin
+from Elefant.tests.test_positive_login import TestPositiveLogin
+from Elefant.tests.test_search_page import TestSearchPage
 
 class TestElefantSuite(unittest.TestCase):
 

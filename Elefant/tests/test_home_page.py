@@ -1,8 +1,8 @@
 import unittest
 from selenium import webdriver
 
-from Elefant.base_page import BasePage
-from Elefant.home_page import HomePage
+from Elefant.pages.base_page import BasePage
+from Elefant.pages.home_page import HomePage
 
 
 class TestHomePage(unittest.TestCase):

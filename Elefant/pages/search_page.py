@@ -1,7 +1,7 @@
 import time
 
-from Elefant.base_page import BasePage
-from Elefant.page_locators import SearchPageData, SearchPageLocators, HomePageData, CartPageLocators
+from Elefant.pages.base_page import BasePage
+from Elefant.pages.page_locators import SearchPageData, SearchPageLocators, HomePageData, CartPageLocators
 
 
 class SearchPage(BasePage):
