@@ -28,16 +28,16 @@ In **test_suite.py**, all the test classes were added, with all the written test
 
 **Preconditions: to have a user already created.**
 
-**Running the tests** can be done in several ways:\
+**Running the tests** can be done in several ways:
 1. Click on the green triangle next to the name of the test class -> it will run all the tests in that class
 2. Click on the green triangle next to the name of the test method -> it will only execute the test method that I ran
 3. Running a specific test file from the terminal: python -m unittest filename.py
-4. Running all test files from the terminal: python -m unittest\
+4. Running all test files from the terminal: python -m unittest
 
 When we want to skip some tests at runtime, we can use the @unittest.skip decorator placed before each test method that we want to skip.\
 **Alternatively:** from the **test_suite.py** file click on the green triangle next to the name of the class that includes the test suite or from **the terminal** according to point 3 above and all the tests added to the test suite will run.
 
 **The results obtained:**\
 10 tests grouped into 4 test classes were created and executed. As tested modules or functionalities are the following: Login Module (both positive and negative testing), Search Module, Adding and Deleting from the cart, Home page.\
-All the tests were added to a **test suite**, and after running it all the tests passed. At the same time, an **execution report** was generated from which it can be seen that all the tests run have a **PASS status**. No bugs were found, but that doesn't mean there aren't any.\
+All the tests were added to a **test suite**, and after running it all the tests passed. At the same time, an **execution report** was generated from which it can be seen that all the tests run have a **PASS status**. No bugs were found, but that doesn't mean there aren't any.
 
